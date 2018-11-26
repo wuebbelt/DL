@@ -9,5 +9,5 @@ EMBEDDINGS=glove.6B
 
 # download and extract
 wget http://nlp.stanford.edu/data/$EMBEDDINGS.zip -P DL/data/embeddings/
-unzip DL/data/embeddings/$EMBEDDINGS.zip
+unzip DL/data/embeddings/$EMBEDDINGS.zip -d DL/data/embeddings
 rm DL/data/embeddings/$EMBEDDINGS.zip
