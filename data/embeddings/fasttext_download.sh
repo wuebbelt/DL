@@ -4,7 +4,7 @@ EMBEDDINGS=wiki-news-300d-1M.vec
 
 # download and extract
 if [ ! -f $EMBEDDINGS ]; then
-  wget $URL/$EMBEDDINGS.zip
+  wget $URL/$EMBEDDINGS.zip -P DL/data/embeddings/
   unzip $EMBEDDINGS.zip
   rm $EMBEDDINGS.zip
 fi

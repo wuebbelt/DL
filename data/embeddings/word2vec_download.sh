@@ -7,6 +7,6 @@ EMBEDDINGS=GoogleNews-vectors-negative300.bin
 
 # download and extract
 if [ ! -f $EMBEDDINGS ]; then
-  wget -c "$URL/$EMBEDDINGS.gz"
+  wget -c "$URL/$EMBEDDINGS.gz" -P DL/data/embeddings/
   gunzip $EMBEDDINGS.gz
 fi
