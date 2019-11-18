@@ -1,5 +1,5 @@
 # Script to download Fastext
-URL=https://s3-us-west-1.amazonaws.com/fasttext-vectors
+URL=https://dl.fbaipublicfiles.com/fasttext/vectors-english
 EMBEDDINGS=wiki-news-300d-1M.vec
 
 # download and extract
